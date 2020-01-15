@@ -123,6 +123,16 @@ img.borderno2{
 	margin-right: auto;
 	border: 3.5px solid black;
 }
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 </style>
 </head>
 </html>
