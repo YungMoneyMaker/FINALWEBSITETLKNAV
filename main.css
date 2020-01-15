@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+}
+h1 {
+	color: white;
+	font-family: Arial;
+	font-size: 300%; 
+	text-decoration-style: dashed;
+	margin-left: auto;
+	margin-right: auto;
+}
+p {
+	color: white;
+	font-family: Arial;
+	font-size: 100%;
+}
+h2 {
+	color: white;
+	font-family: Arial;
+	font-size: 250%;
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+body {
+	background-image: url("https://r-design.com.au/wp-content/files/2019/02/r-design-crystal-background-dark-compressor.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h3 {
+	color: white;
+	font-family: Arial;
+	font-size: 200%;
+}
+p {
+	color: white;
+	font-family: Arial;
+	font-size: 145%;
+	text-indent: 2em;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;	
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #D3D3D3;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+a:visited {
+	text-decoration: none; 
+	color: black;
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img.teamphotos{
+	border: 2px solid black;
+	border-radius: 75px;
+}
+p.subtitles{
+	color: white;
+	font-family: Arial;
+	font-size: 128%;
+	text-decoration: underline;
+}
+p.about{
+	color: white;
+	font-family: Arial;
+	font-size: 130%;
+	text-align: center;
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+img.border{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3.5px solid black;
+}
+img.borderno2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3.5px solid black;
+}
+</style>
+</head>
+</html>
