@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<title>Hallway Navigator</title>
+</head>
+<body>
+    <!-- Navbar links -->
+    <div class="w3-right w3-hide-small">
+</div>
+  <ul>
+      <li><a href="#about"> ABOUT</a></li>
+      <li><a href="#team"></i> TEAM</a></li>
+      <li><a href="#screenshots"></i>DESKTOP APP INFO</a></li>
+  </ul>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="navbar">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="navbar">TEAM</a>
+  <a href="#storyline" onclick="w3_close()" class="navbar">DESKTOP APP INFO</a>
+</nav>
+
+<!-- Header with full-height image -->
+<!-- About Section -->
+<div>
+</div>
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE HALLWAY NAVIGATOR</h3>
+  <p class="about">The TLK Nav project was developed by a team of coding rookies who wanted to collaborate and handle the issue people at Thomas Laird Kennedy Secondary School may encounter regarding movement and direction around the school premises. The team first took into consideration the question: "What are the most efficient ways to maximize student usage of our working product and provide adequate satisfaction given the skill level of the current team?" After using this question as a base for our issue which needed problem-solving we brought our most prevalent programming and coding skills to provide public access to our working product. As of now, people may find their ways throughout the school as they please.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <iframe height="400px" width="100%" src="https://repl.it/@Patrick_Pineda_/Summative?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      <p class="subtitles">Online Interface</p>
+      <p>To use the online interface click the green button on top of the 2 sectioned boxes above.</p>
+    <a href="http://www.mediafire.com/file/2quotoibqxqbvl3/main.exe/file">
+      <img src="New%20folder/LogoMakr_6m4QpS.png" width="515" height="300">
+    </a>
+    <p class="subtitles">Desktop Interface</p>
+      <p>Click this image to be redirected to a page where you can download the desktop app versioin of TLK Nav.</p>
+    </div>
+ </div>
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <img class="teamphotos" src="New%20folder/IMG_4964.jpg" alt="Whole Team" width="515" height="325">
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img class="teamphotos" src="New%20folder/image0%20(1).jpeg" alt="Daniel" width="150" height="275">
+        <div class="w3-container">
+          <h3>Daniel Buwah</h3>
+         <p class="subtitles" >Website Developer & Application Integrater</p>
+          <p>Daniel Buwah lead the development of the website and intergrated the python coded program into the website. </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 597944@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img class="teamphotos" src="New%20folder/IMG_4963.jpg" alt="Patrick" width="150" height="225">
+        <div class="w3-container">
+          <h3>Patrick Pineda</h3>
+         <p class="subtitles" >Application Developer</p>
+          <p>Patrick Pineda served as the leader in the development of the application, he created algorithms to search for the quickest path to your destination and ensured the output read to the user was understandable and clear.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 595243@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img class="teamphotos" src="New%20folder/image0%20(4).jpeg" alt="Shakir"mwidth="150" height="275">
+        <div class="w3-container">
+          <h3>Shakir Rahman</h3>
+          <p class="subtitles" >Desktop Application Developer and Application Integrater</p>
+          <p class="w3-opacity">Shakir leads the integration of the python-based code into a desktop application used for all users who wish to use TLK  Nav as an alternative for users who are unable to use the online interface but need to have acess to the program whilst offline.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 597944@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img class="teamphotos" src="New%20folder/IMG_4962.jpg" alt="Labeed" width="175" height="275">
+        <div class="w3-container">
+          <h3>Labeen Hassan</h3>
+          <p class="subtitles"> Organizer & Collaborater</p>
+          <p>Labeed helped organize the teams' tasks and also helped with all aspects of the development of TLK Nav, by playing a support role for the team while ensuring the team is on schedule Labeed played an important role in the development stages.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 571775@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <img class="borderno2" src="https://www.american.edu/careercenter/images/skills-header-no-text.jpg" width="425" height="115"> 
+    <div class="w3-col m6">
+      <h3>Our Skills</h3>
+      <p>The team that presents you with TLK Nav is a group of determined and committed members. With skills ranging from organizational skills, coding skills and further talents the group successfully created a working application. This team took a large scale idea and made it a reality through hard work and dedication to bring the best user experience.
+      </p>
+    </div>
+
+<!-- Screenshots Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="screenshots">
+  <h3>DESKTOP APP SCREENSHOTS</h3>
+  <!-- Slideshow container -->
+<div class="responsive">
+  <div class="gallery">
+    <h3>Homepage</h3>
+    <a target="_blank" href="New%20folder/Homepage.png">
+      <img class="border" src="New%20folder/Homepage.png" alt="Desktop App" width="500" height="300">
+    </a>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <h3>Infopage</h3>
+    <a target="_blank" href="New%20folder/Infopage.png">
+      <img class="border" src="New%20folder/Infopage.png" alt="Desktop App" width="500" height="300">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <h3>Program Page</h3>
+    <a target="_blank" href="New%20folder/Programpage.pngg">
+      <img class="border" src="New%20folder/Programpage.png" alt="Programpage" width="500" height="300">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <h3>Resources Page</h3>
+    <a target="_blank" href="New%20folder/Resourcespage.png">
+      <img class="border" src="New%20folder/Resourcespage.png" alt="Mountains" width="500" height="300">
+    </a>
+  </div>
+</div>
+</body>
+</html>
